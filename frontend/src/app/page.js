@@ -178,6 +178,7 @@ export default function Home() {
             <span className="hover:text-cyan-400 cursor-pointer transition-colors">Terms</span>
           </div>
         </div>
+        <script src='https://www.noupe.com/embed/019d3995ba1a7a6694ef4e8a9817a6433bbd.js'></script>
       </footer>
     </div>
   );
