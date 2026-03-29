@@ -11,7 +11,7 @@ export default function AddComponentModal({ closeModal, refreshData, userId }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await fetch('${process.env.NEXT_PUBLIC_API_URL}/components/add', {
+    await fetch(`${process.env.NEXT_PUBLIC_API_URL}/components/add`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ...formData, userId })
